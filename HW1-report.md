@@ -21,36 +21,32 @@ My favorite Olympic sport is **fencing**. In the *2020 Tokyo Olympics*, the coun
 
 ## Tableau
 
-*Insert the image of your horizontal bar chart here. Reminder, this should show countries that won most number of medals in Paris 2024 Summer Olynpics by continent.*
+[Response](MedalsbyContinent.png)
 
 ## Google Colab
 
-*What is the URL of your Google Colab notebook?*
+https://colab.research.google.com/drive/19KyVxTuXPuHJaZhzdo2UVCIxv2ImAqdD?usp=sharing
 
 ## Python/Seaborn
 
-*Insert the first penguin chart here*
+![Graph 1](<Penguins 1.png>)
+This is a scatter plot comparing bill length to bill depth.
 
-*Describe what the figure is showing.*
+![Graph 2](<Penguins 2.png>)
+This is a bar chart comparing the average body mass by species, seperated by sex.
 
-*Insert the second penguin chart here*
-
-*Describe what the figure is showing.*
-
-*What happened when you removed the outer parentheses from the code? Why?*
-
+I was given a syntax error as the code was no longer contained to itself in closed parentheses
 ## Observable and Vega-Lite
 
-*What happens when you replace `markCircle()` with `markSquare()`?*
+The Circles in the scatter plot became squares.
 
-*What happens when you replace `markCircle()` with `markPoint()`?*
+The Circles becam rings around the datapoints
 
-*What change do you need to make to swap the x and y axes on the scatterplot?*
+vl.x becomes vl.y, vl.y becomes vl.x.
 
-*Insert the bar chart image here*
+![Bar Chart](<bar.png>)
 
-*Why do you think this chart is the result of this code change?*
-
+One uses nominal x values, another uses numerical x values.
 ## References
 
 *Every report must list the references (including the URL) that you consulted while completing the assignment. Replace the items below with the references you consulted*
@@ -61,3 +57,4 @@ https://www.tableau.com/products/cloud/confirmation
 img.olympics.com
 range.co
 https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+https://stackoverflow.com/questions/32244753/how-to-save-a-seaborn-plot-into-a-file
